@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aqui va barra de carga"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+
+        />
+
+<TableLayout
+    android:paddingTop="@dimen/fab_margin"
+    android:paddingBottom="@dimen/fab_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/fab_margin"
+
+
+    >
+    <TableRow android:layout_gravity="center_horizontal" android:layout_marginTop="100dp">
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="81"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorOperadores"
+        android:text="+"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIngresoRespuesta"
+        android:textSize="50dp"
+        android:hint="  "
+        android:singleLine="true"
+        android:inputType="number"
+        android:focusable="true"
+        />
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textStyle="bold"
+        android:textColor="@color/colorOperadores"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="172"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+
+        />
+    </TableRow>
+
+
+</TableLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:id="@+id/botonRevisar"
+        android:text="Revisar"
+        android:textSize="40dp"
+        android:padding="@dimen/fab_margin"
+        android:layout_gravity="right|bottom"
+        android:textAllCaps="false"
+        />
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -18,6 +18,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity   android:name=".teoria"
+                    android:label="marco teoríco"
+                    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".leccion"
+            android:parentActivityName=".teoria"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".teoria"
+                />
+        </activity>
+
+
+
+
     </application>
 
 </manifest>
