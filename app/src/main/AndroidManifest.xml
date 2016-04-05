@@ -21,7 +21,7 @@
 
         <activity   android:name=".teoria"
                     android:label="marco teoríco"
-                    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+                    android:theme="@style/AppTheme.NoActionBar">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 

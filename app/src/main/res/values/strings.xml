@@ -2,4 +2,9 @@
     <string name="app_name">MatematicasApp</string>
     <string name="action_settings">Settings</string>
     <string name="stringTeoria">Aquí va el marco teoríco de cada lección</string>
+    <string name="titulo1">Principal</string>
+    <string name="titulo2">Niveles</string>
+    <string name="titulo3">Experiecia</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>
